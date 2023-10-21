@@ -39,6 +39,14 @@ body {
   display: none;
 }
 
+.view {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
 .img-view {
   width: 60px;
   height: 60px;
@@ -50,6 +58,13 @@ body {
   justify-content: center;
   align-items: center;
   opacity: 0.6;
+}
+
+.equilibrium:hover + .image-overlay + .view {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nft-name {
