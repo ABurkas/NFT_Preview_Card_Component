@@ -29,5 +29,5 @@ While not explicitly mentioned in the provided CSS, it's important to note that 
 
 Overall, this project is a visually appealing and informative webpage that effectively showcases a specific NFT artwork, providing users with essential details and an interactive experience when exploring the featured digital creation.
 
-<h2>Getting Started</h2> <br>
+**Getting Started** <br>
 To run the project locally, download the project files and open the index.html file in your web browser. You can also try it out live by following the [**project link**](https://aburkas.github.io/NFT_Preview_Card_Component/).
