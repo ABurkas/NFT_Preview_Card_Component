@@ -24,20 +24,32 @@ body {
   width: 270px;
   border-radius: 10px;
   position: relative;
-}
-
-.view {
-  background-color: hsl(178, 100%, 50%);
-  border: none;
-  opacity: 0.5;
-}
-
-.img-view {
-  opacity: 1;
+  cursor: pointer;
 }
 
 .image-overlay {
   position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: aqua;
+  width: 270px;
+  height: 270px;
+  border-radius: 10px;
+  display: none;
+}
+
+.img-view {
+  width: 60px;
+  height: 60px;
+}
+
+.equilibrium:hover + .image-overlay {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.5;
 }
 
 .nft-name {
